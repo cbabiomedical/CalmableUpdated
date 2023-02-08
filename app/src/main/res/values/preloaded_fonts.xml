@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/architects_daughter</item>
+        <item>@font/bad_script</item>
+        <item>@font/bilbo</item>
+        <item>@font/bowlby_one</item>
+        <item>@font/arizonia</item>
+        <item>@font/covered_by_your_grace</item>
+        <item>@font/damion</item>
+        <item>@font/pinyon_script</item>
+        <item>@font/roboto_bold</item>
+        <item>@font/roboto_light</item>
+        <item>@font/roboto_medium</item>
+        <item>@font/ruthie</item>
+        <item>@font/satisfy</item>
+        <item>@font/vampiro_one</item>
+        <item>@font/yesteryear</item>
+    </array>
+</resources>

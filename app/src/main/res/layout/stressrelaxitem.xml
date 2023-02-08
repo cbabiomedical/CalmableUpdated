@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp">
+
+    <TextView
+        android:id="@+id/relaxindexed"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:text="song name"
+        android:textColor="#EE306081" />
+
+    <TextView
+        android:id="@+id/stressindexed"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:text="location"
+        android:textColor="#EE306081" />
+
+    <TextView
+        android:id="@+id/relaxstresstimeed"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:text="00"
+        android:textColor="#EE306081" />
+
+
+</RelativeLayout>

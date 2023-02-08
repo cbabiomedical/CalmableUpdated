@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/mainLayout"
+    android:layout_height="100dp"
+    android:layout_margin="2dp"
+    android:background="#63FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_toLeftOf="@+id/btnNo">
+
+        <TextView
+            android:id="@+id/locationId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_toLeftOf="@+id/ll1"
+            android:text="1"
+            android:textSize="32dp" />
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/locationNameTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left |center"
+                android:text="sddfsdfsdfsdfsfsf"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/locationTimeTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/btnNo"
+                android:gravity="left |center"
+                android:text="sddfsdfsdfsdfsfsf" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/btnYes"
+        android:background="@drawable/mybutton"
+        android:text="no"
+        android:visibility="invisible"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnYes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/mybutton"
+        android:backgroundTint="#c0392b"
+        android:text="yes / no"
+        android:textColor="@color/white" />
+</RelativeLayout>

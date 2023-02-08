@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/HptChtReport"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:background="#17205072">
+
+
+    <TextView
+        android:id="@+id/reportId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="00"
+        android:visibility="invisible"/>
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/reportId"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hpyChtTimeRpTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hpyChtEventRpTV"
+            android:layout_margin="8dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_blue_300"/>
+
+        <TextView
+            android:id="@+id/hpyChtRateRpTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hpyChtEventRpTV"
+            android:layout_margin="8dp"
+            android:textColor="#903C7095"/>
+
+
+        <TextView
+            android:id="@+id/hpyChtEventRpTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="@color/dark_blue_100"/>
+
+        <SeekBar
+            android:id="@+id/seekBarReportRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:visibility="gone"/>
+
+        <ProgressBar
+            android:id="@+id/hpyProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="21dp" />
+    </LinearLayout>
+
+</RelativeLayout>
